@@ -13,7 +13,6 @@ import java.util.List;
 public class User {
 
         @Id
-        @DBRef
         private String userId;
 
         private String username;
